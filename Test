@@ -1,0 +1,9 @@
+&lt?xml version="1.0" encoding="UTF-8"?> &lt!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
+"http://www.apple.com/DTDs/PropertyList-1.0.dtd"> &ltplist version="1.0"> &ltdict> &ltkey>Label&lt/key>
+&ltstring>com.jenkins.ci&lt/string> &ltkey>UserName&lt/key> &ltstring>jenkins&lt/string> &ltkey>SessionCreate&lt/key>
+&lttrue/> &ltkey>ProgramArguments&lt/key> &ltarray> &ltstring>java&lt/string>
+&ltstring>-Djava.awt.headless=true&lt/string> &ltstring>-jar&lt/string>
+&ltstring>/Users/jenkins/Desktop/slave.jar&lt/string> &ltstring>-jnlpUrl&lt/string>
+&ltstring>http://192.168.1.151:8080/computer/mac_vm/slave-agent.jnlp&lt/string> &lt/array> &ltkey>KeepAlive&lt/key>
+&lttrue/> &ltkey>StandardOutPath&lt/key> &ltstring>/Users/jenkins/Desktop/stdout.log&lt/string>
+&ltkey>StandardErrorPath&lt/key> &ltstring>/Users/jenkins/Desktop/error.log&lt/string> &lt/dict> &lt/plist>
