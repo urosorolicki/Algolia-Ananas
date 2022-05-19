@@ -1,6 +1,4 @@
-# Venus
-
-A landing page template.
+# Welcome!
 
 * [Getting started](#getting-started)
 
