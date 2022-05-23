@@ -3,10 +3,14 @@
   "version": "1.0.0",
   "description": "Algolia WorkShop",
   "main": "index.js",
-  "scripts": {
-    "test": "npm run build",
-    "start" : "index.js"
-  },
+  
+
+    "scripts": {
+      "build": "babel src -d lib",
+      "test": "jest",
+      "env": "env=production",
+      "start": "browser"
+    },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/urosorolicki/Algolija-Prezentacija.git"
