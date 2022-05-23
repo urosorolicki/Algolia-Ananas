@@ -1,0 +1,22 @@
+{
+  "name": "algolija-prezentacija",
+  "version": "1.0.0",
+  "description": "Algolia WorkShop",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d lib",
+    "test": "jest",
+    "env": "env=production",
+    "start": "browser"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/urosorolicki/Algolija-Prezentacija.git"
+  },
+  "author": "Uros Orolicki",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/urosorolicki/Algolija-Prezentacija/issues"
+  },
+  "homepage": "https://github.com/urosorolicki/Algolija-Prezentacija#readme"
+}
